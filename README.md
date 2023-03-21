@@ -55,3 +55,5 @@ Universal Robot (UR5) controller as ROS package is implemented here:
 * https://github.com/ir-lab/ur5_intpro
 
 Communication with physical UR5 can be done using follwing:
+
+* https://github.com/ir-lab/irl_robots
