@@ -44,7 +44,7 @@ As initial step, make sure to create virtual environment with python3.7 or above
 ---------------------------------------------------------
 
 
-Implimentation of visual cue visualization is done in [intpro.py](./src/intpro.py) script. This script uses **ROS and OpenCV** so make sure to start the roscore. Please make changes to the script as per your requiements. 
+Implementation of visual cue visualization is done in [intpro.py](./src/intpro.py) script. This script uses **ROS and OpenCV** so make sure to start the roscore. Please make changes to the script as per your requiements. 
 
 Unity simulation implementation can be found below:
 
