@@ -1,0 +1,60 @@
+
+# zed 
+zed_frame: "left"
+zed_id: 1
+zed_fps: 100           # 5, 30, 60, 100
+zed_res: "HD2K"        # HD2K, HD1080, HD720, VGA
+zed_res_dc: "HD720"
+zed_brightness: -1     #[0 - 8]  
+zed_contrast: -1       #[0 - 8]  
+zed_hue: -1            #[0 - 11]
+zed_saturation: -1     #[0 - 8]  
+zed_sharpness: -1      #[0 - 8] 
+zed_gain: -1           #[0 - 100]  
+zed_exposure: -1       #[0 - 100]  
+zed_whitebal_temp: -1  #[2800 - 6500]  
+zed_serial: 33582849
+
+# projector 
+projector_calibration: "calibration_7.yml"
+projector_res: "Custom" 
+projector_name: "optoma"
+projector_width: 1920
+projector_height: 1080
+x_offset: 4920
+y_offset: 0
+use_saved_params: True
+use_keyevent:     False
+save_proj_ext:    False
+save_proj_int:    False
+save_home_tf: False
+load_home_tf: True
+
+debug_img: True
+
+# april tag detector parameters
+tag_families: "tag36h11"
+nthreads: 4
+quad_decimate: 0.
+quad_sigma: 0.4
+refine_edges: 1.0
+decode_sharpening: 1.0
+debug: 0
+
+# april tag information
+estimate_pose: True
+# tag_size: 0.0849
+# tag_size: 0.0425
+# tag_size: 0.0749
+tag_size: 0.16210
+test_id: 0
+target_ids: [1,2,3,4]
+
+
+save_goals: True
+goal_x_offset: 0.20
+goal_y_offset: 0.20
+c_mode: True
+d_mode: True
+
+                      
