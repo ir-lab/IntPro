@@ -50,4 +50,8 @@ Unity simulation implementation can be found below:
 
 * https://github.com/sdsonawani/unity_ur5_intpro
 
+Universal Robot (UR5) controller as ROS package is implemented here:
 
+* https://github.com/ir-lab/ur5_intpro
+
+Communication with physical UR5 can be done using follwing:
