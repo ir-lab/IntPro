@@ -1,0 +1,10 @@
+numpy
+scipy
+opencv-python
+opencv-contrib-python
+PyYaml
+roslibpy
+tqdm
+transforms3d
+joblib 
+pupil-apriltags
