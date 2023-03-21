@@ -1,0 +1,10 @@
+
+# cache
+src/__pycache__/*
+
+# log
+src/error_log/*
+
+# misc
+plots/*
+*.whl
